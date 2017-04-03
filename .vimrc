@@ -16,3 +16,4 @@ set softtabstop=4
 set shiftwidth=4
 set number
 set mouse=a
+syntax on
