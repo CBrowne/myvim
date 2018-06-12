@@ -1,16 +1,25 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'L9'
-call vundle#end()
-filetype plugin indent on
-colorscheme industry 
+"Indentation
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set smarttab
+set shiftwidth=2
+set tabstop=2
+
+"Search
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+"Render
+set encoding=utf-8
+syntax enable
+set wrap
+
+"UI
+set ruler
+set wildmenu
+set cursorline
 set number
 set mouse=a
-syntax on
+set title
+set background=dark
